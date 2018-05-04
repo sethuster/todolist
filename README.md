@@ -1,2 +1,2 @@
 # todolist
-Simple todo list application written in javascript
+https://sethuster.github.io/todolist/
