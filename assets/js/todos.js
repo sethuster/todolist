@@ -18,8 +18,12 @@ $("input[type='text']").keypress(function(event){
 		//grabbing new todo text from input
 		var todoText = $(this).val();
 		//create a new li and add it to ul
-		$('ul').append("<li><span>X</span> " + todoText + "</li>");
+		$('ul').append("<li><span><i class=\"fas fa-trash-alt\"></i></span> " + todoText + "</li>");
 		//clear the input
 		$(this).val("");
 	}
+});
+
+$("#toggle-form").click(function() {
+	$("input[type='text']").fadeToggle();
 });
