@@ -1,2 +1,2 @@
 # todolist
-https://sethuster.github.io/todolist/
+https://sethuster.github.io/web-todolist/
